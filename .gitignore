@@ -1,0 +1,15 @@
+# secret files - never upload these!
+.env
+credentials.json
+token.json
+processed_ids.txt
+
+# virtual environment - too big to upload
+venv/
+
+# Mac system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
