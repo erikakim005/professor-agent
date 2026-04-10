@@ -13,6 +13,7 @@ An intelligent email automation system that reads Gmail, summarizes emails in Ko
 - 🔁 **No duplicates** — tracks processed emails so nothing is processed twice
 
 ## 📂 Project Structure
+```
 professor_agent/
 ├── main.py              # entry point + scheduler
 ├── agent.py             # Claude AI brain (orchestrator)
@@ -23,7 +24,7 @@ professor_agent/
 │   ├── image_tool.py    # analyzes image attachments
 │   └── obsidian_tool.py # saves notes to Obsidian vault
 └── .env                 # secret API keys (never upload this!)
-
+```
 ## 🗂️ Email Categories
 
 Emails are automatically classified into:
